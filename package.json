@@ -1,0 +1,42 @@
+{
+  "name": "app-be",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server.js",
+    "test": "jest --coverage",
+    "dev": "nodemon server.js"
+  },
+  "author": "Ervin",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-fileupload": "^1.4.0",
+    "express-formidable": "^1.2.0",
+    "google-auth-library": "^8.1.0",
+    "heroku": "^7.65.0",
+    "jest": "^28.1.1",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "pg": "^8.8.0",
+    "react-google-login": "^5.2.2",
+    "sequelize": "^6.24.0",
+    "superjest": "^0.1.0",
+    "supertest": "^6.2.4",
+    "swagger-ui-express": "^4.5.0",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20",
+    "sequelize-cli": "^6.6.1"
+  },
+  "engines": {
+    "node": "19.0.0"
+  }
+}
